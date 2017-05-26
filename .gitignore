@@ -5,6 +5,8 @@ env.yml
 tmp
 .coveralls.yml
 
+config.js
+
 # Google
 keyfile.json
 
@@ -36,3 +38,5 @@ node_modules
 # OS
 .DS_Store
 .tmp
+
+notes

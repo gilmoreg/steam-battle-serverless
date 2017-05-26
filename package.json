@@ -9,7 +9,7 @@
   "author": "serverless.com",
   "license": "MIT",
   "dependencies": {
-    "serverless-google-cloudfunctions": "^1.1.0",
+    "node-fetch": "^1.7.0",
     "steamid": "^1.1.0"
   },
   "devDependencies": {

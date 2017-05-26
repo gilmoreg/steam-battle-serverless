@@ -47,7 +47,7 @@ Given a valid 64-bit Steam ID, returns the following model:
 ### Technical:
  * Server runs with Express on Node.
  * Tests performed with Mocha, Chai, and Sinon.
- * Hosted on Google Cloud Functions via the Serverless Framework
+ * Hosted as Google Cloud Functions
 
 ### Dependencies:
  * [axios](https://www.npmjs.com/package/axios) for https requests
