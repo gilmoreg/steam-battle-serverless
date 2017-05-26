@@ -45,11 +45,7 @@ Given a valid 64-bit Steam ID, returns the following model:
 ```
 
 ### Technical:
- * Server runs with Express on Node.
- * Tests performed with Mocha, Chai, and Sinon.
  * Hosted as Google Cloud Functions
 
 ### Dependencies:
- * [axios](https://www.npmjs.com/package/axios) for https requests
- * [moxios](https://github.com/mzabriskie/moxios) for mocking axios calls in tests
  * [steamid](https://github.com/DoctorMcKay/node-steamid) for converting between Steam ID formats
