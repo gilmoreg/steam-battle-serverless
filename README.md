@@ -4,7 +4,7 @@ A RESTful API providing a proxy for the Steam Player API. Serves as the backend 
 
 steam-battle-api exposes two routes:
 
- * /checkid/:id
+ * /checkid?id=<id>
 
 Verifies the existence of a valid Steam ID. Accepts any of the [three valid Steam ID types](https://developer.valvesoftware.com/wiki/SteamID), or the name portion of a valid vanity url.
 
@@ -21,7 +21,7 @@ Given a valid Steam ID (as defined above), returns the following model:
 }
 ```
 
- * /player/:id
+ * /player?id=<id>
 
 Given a valid 64-bit Steam ID, returns the following model:
 ```
