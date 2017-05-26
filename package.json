@@ -1,16 +1,13 @@
 {
-  "name": "boilerplate-googlecloudfunctions-nodejs",
+  "name": "steam-battle-serverless",
   "version": "0.1.0",
-  "description": "",
+  "description": "A RESTful API providing a proxy for the Steam Player API",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "serverless.com",
+  "author": "Grayson Gilmore (gilmoreg@live.com)",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^1.7.0",
-    "steamid": "^1.1.0"
+    "node-fetch": "1.7.0",
+    "steamid": "1.1.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
